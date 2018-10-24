@@ -1,0 +1,24 @@
+{
+  "name": "ly_han_hw3",
+  "version": "1.0.0",
+  "description": "Interactive Information Poster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanly96/Ly_Han_HW3.git"
+  },
+  "keywords": [
+    "Infographic",
+    "Interactive",
+    "Design"
+  ],
+  "author": "Han Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanly96/Ly_Han_HW3/issues"
+  },
+  "homepage": "https://github.com/Hanly96/Ly_Han_HW3#readme"
+}
