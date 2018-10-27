@@ -1,0 +1,51 @@
+
+
+@font-face{
+    font-family:heading;
+    src:url(../fonts/ObelixProBIt-cyr.ttf)
+}
+
+.hidden{
+    display:none
+}
+
+.name{
+    font-family: heading;
+    color: #f9cc10;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.position {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #5b4203;
+        margin-top: 10px;
+        text-align: center; 
+}
+
+#text{
+    padding-top: 20px;
+}
+
+.header{
+    font-family: heading;
+    font-size: 25pt;
+    color:#cc4e4e;
+    text-align: left;
+    margin: 50px 0px 30px 0px;;
+}
+
+.headerSkills {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5b4203;
+    margin-top: 10px;
+    text-align: center; 
+    width: 113px;
+}
+
+
