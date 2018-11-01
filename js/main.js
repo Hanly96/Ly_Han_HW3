@@ -1,23 +1,35 @@
-
-
-TweenMax.from("#learningText", 4, { opacity:0});
-//TweenMax.from("#logo", 1.2, {rotation:360});
-
-
-var waypoint = new Waypoint({
-    element: document.querySelector('#learningHeader').querySelector('#learningText'),
-    handler: function(direction) {
-      console.log('Scrolled to waypoint!');
-      runAnimation(this.element, []);
-    },
-    offset: 100
-});
-
 (() => {
-    const logoAnim = document.querySelector("#logo");
+let skill1 = document.querySelector('#logo'),
+    skill2 = document.querySelector('#website');
+   
 
-    logoAnim.addEventListener("mouseover", function() {
-        //debugger;
-        TweenMax.from("#logo", 1.2, {rotation:360});
+
+    //Animation that happen when the page loads
+tl = new TimelineMax;
+function startAnim (){
+    tl.from(skill1,1,{
+        x:-100,
+        opacity: 0
     });
+
+    tl.from(skill2,1,{
+        opacity: 0
+    })
+
+}    
+
+
+
+
+
+function rotateLight(){
+    TweenMax.from(logo, 1,{
+        ratation: 360
+    });
+}
+
+//Event Listener
+window.addEventListener('load',startAnim,false)
+
+
 })();
