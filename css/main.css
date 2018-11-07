@@ -7,6 +7,13 @@ body {
     font-family:heading;
     src:url(../fonts/ObelixProBIt-cyr.ttf)
 }
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 800px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
 
 #mainContainer{
     width: 1280px;

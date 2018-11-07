@@ -85,6 +85,14 @@
     window.addEventListener('load',startPart2,false);
     
     
+        //fetch('../oncludes/connect.php?'
+        //.then(res = res.json())
+        //.then(data => console.log(data))
+        //.catch(function(error) {
+        //console.error(error);
+        //})
+    
+
     
     
     })();
