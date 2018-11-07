@@ -5,7 +5,11 @@
         website   = document.querySelector('#website'),
         ux        = document.querySelector('#ux'),
         graphic   = document.querySelector('#graphic'),
-        part2     = document.querySelector('#learningEx'),
+        //part2     = document.querySelector('#learningEx'),
+        skill     = document.querySelector('#skillsText'),  
+        interests = document.querySelector('#interestsText'),
+        line      = document.querySelector('#linePro'),
+ 
     
     
     
@@ -21,9 +25,19 @@
         tl.from(learning, 2,{
             opacity:0
         });
-    
+        tl.from(skill, 0.5,{
+            opacity:0
+        });
+        tl.from(interests, 0.5,{
+            opacity:0
+        });
+        tl.from(line, 0.5,{
+            x:100,
+            opacity: 0
+        })
     
     }
+
     
     //Animation that happen when the page load in Part 2
     
