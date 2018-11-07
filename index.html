@@ -5,66 +5,214 @@
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet">
-
-<title>Document</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+<title>Han Ly</title>
 </head>
 
 
 <body>
-            <section id="info">
+    <div id="mainContainer">
+        <section class="wow" id="part_01">
 
-            <div id="portray">
+        <div id="portray">
                     <img src="images/portray.gif">
                     <p class="name">Han Ly</p>
                     <p class="position">Graphic Designer</p>
 
-            </div><!--end of portray-->
-
+        </div><!--end of portray-->
+        <div id="info">
             <div id="text">
                 <img src="images/text.png">
             </div><!--end of image Text-->
 
-            <div>            
-                 <p class="header">ABILITIES</p>
-            </div><!--end of Abilities Header-->
+            <div id="abilities">
 
-            <div>
-                <div>
-                    <img id="logo" src="images/logo.svg">
-                    <p class="headerSkills">Logo</p>
-                </div>
-                <div >
-                        <img id="website" src="images/website.svg">
-                        <p class="headerSkills">Website Design</p>
-                </div>
+                <div id="abiHeader">
+                    <object data="images/abilities.svg" type="image/svg+xml" id="abiText"></object>
+                </div><!--end of Abilities Header-->
+
                 <div id="iconAbi">
-                        <img class="svg-skills" id="mobile" src="images/ux.svg">
-                        <p class="headerSkills">UX/UI Design</p>
-                </div>
-                <div id="iconAbi">
-                        <img class="svg-skills" id="content" src="images/graphic.svg">
-                        <p class="headerSkills">Graphic</p>
-                </div>
-            </div>    
-            </div><!--end of Abilities Information-->
+                    <div class="iconAbileft">
+                        <object type="image/svg+xml" id="logo" data="images/logo.svg"></object>
+                        <p class="headerAbi">Logo</p>
+                    </div><!--end of id Logo-->
+
+                    <div class="iconAbileft">
+                            <object id="website" data="images/website.svg" type="image/svg+xml"></object>
+                            <p class="headerAbi">Website Design</p>
+                    </div><!--end of id Website-->
+
+                    <div class="iconAbileft">
+                            <object id="ux" data="images/ux.svg" type="image/svg+xml"></object>
+                            <p class="headerAbi">UX/UI Design</p>
+                    </div><!--end of id Mobile-->
+
+                    <div class="iconAbiright">
+                            <object type="image/svg+xml" id="graphic" data="images/graphic.svg"></object>
+                            <p class="headerAbi">Graphic</p>
+                    </div><!--end of id Graphic-->
             
-        </section><!--end of info-->
+                </div><!--end of icon Abilities-->
+            </div><!--end of Abilities-->
+        </div><!--end of ID Info-->    
+        </section><!--end of part_01-->    
 
-  
-
-    <div id="learningHeader">
+        
+            
+      
+        <section id="learningEx">
+            <div id="learningHeader">
                     <img id="learningText" src="images/learning.svg">
-    </div><!--end of Learning Header-->
-    
+            </div><!--end of Learning Header-->
 
-    <div class="row">
-        <div class="columns large-12" id="learningEx">
+            <div id="process">
+                <div id="iconProcess">
+                    <div id="highschool">
+                        <object type="image/svg+xml" id="hat" data="images/hat.svg"></object>
+                        <div id="text_process">
+                            <p class="headerProcess">High School Diploma</p>
+                            <p>Sep 2011 - June 2014
+                            <br>Marie Curie High School</p>
+                        </div><!--end of Text High School-->
+                    </div><!--end of High School-->
+
+                    <div id="fpt">
+                            <object type="image/svg+xml" id="reward" data="images/reward.svg"></object>
+                            <div id="text_process">
+                                    <p class="headerProcess">Graphic Design Diploma</p>
+                                    <p>Sep 2014 - July 2016
+                                    <br>FPT University</p>
+                            </div><!--end of Text FPT-->
+                    </div><!--end of FPT-->
+
+                    <div id="fanshawe">
+                            <object id="book" data="images/book.svg" type="image/svg+xml"></object>
+                            <div id="text_process">
+                                    <p class="headerProcess">Interactive Media Design</p>
+                                    <p>Jan 2018
+                                    <br>Fanshawe College</p>
+                            </div><!--end of Text Fanshawe-->
+                    </div><!--end of Fanshawe-->
+                </div><!--end of Icon Process-->
+                
+                <div id="line">
+                    <object type="image/svg+xml" id="linePro" data="images/time.svg"></object>
+                </div>
+   
+                <div id="freelance">
+                        <object type="image/svg+xml" id="computer" data="images/computer.svg"></object>
+                        <div id="text_process">
+                                <p class="headerProcess">Freelance Illustrator</p>
+                                <p>May 2017
+                                <br>Word Magazine</p>    
+                        </div>
+                </div><!--end of freelance--> 
+
+            </div><!--end of Process-->
+        </section><!--end of learningEx-->
+
+        <section class="wow bounceInUp" id="part_03">
+        <div id="skills">
+            <div id="skillsHeader">
+                    <object type="image/svg+xml" id="skillsText" data="images/skill.svg"></object>
+            </div><!--end of Learning Header-->
             
+            <div id="skillsIcon">
+                
+                <div class="skillsLine">
+                    <object type="image/svg+xml" id="ai" data="images/ai.svg"></object>
+                    <object type="image/svg+xml" data="images/ai_line.svg"></object>
+                </div>
 
+                <div class="skillsLine">
+                    <object type="image/svg+xml" data="images/ps.svg"></object>
+                    <object type="image/svg+xml" data="images/ps_line.svg"></object>
+                </div>
+
+                <div class="skillsLine">
+                    <object type="image/svg+xml" data="images/id.svg"></object>
+                    <object type="image/svg+xml" data="images/id_line.svg"></object>
+                </div>  
+                
+                <div class="skillsLine">
+                    <object type="image/svg+xml" data="images/pr.svg"></object>
+                    <object type="image/svg+xml" data="images/pr_line.svg"></object>
+                </div>
+
+                <div class="skillsLine">
+                    <object type="image/svg+xml" data="images/ae.svg"></object>
+                    <object type="image/svg+xml" data="images/ae_line.svg"></object>
+                </div>
+
+                <div class="skillsLine"> 
+                    <object type="image/svg+xml" data="images/dw.svg"></object>
+                    <object type="image/svg+xml" data="images/dw_line.svg"></object>
+                </div>
+
+                <div class="skillsLine">
+                    <object type="image/svg+xml" data="images/php.svg"></object>
+                    <object type="image/svg+xml" data="images/php_line.svg"></object>
+                </div>
+            </div>
+        </div><!--end of Skills-->
+
+        <div id="interests">
+            <div id="interestsHeader">
+                    <object type="image/svg+xml" id="interestsText" data="images/interests.svg"></object>
+            </div><!--end of Interests Header-->
+            <div class="iconInteLeft">
+                <object type="image/svg+xml" id="dog" data="images/dog.svg"></object>
+                <p class="headerInte">Dogs</p>
+            </div>
+
+            <div class="iconInteLeft">
+                <object type="image/svg+xml" id="camera" data="images/camera.svg"></object>
+                <p class="headerInte">Photography</p>
+            </div>
+            
+            <div class="iconInteRight">
+                <object type="image/svg+xml" data="images/travel.svg"></object>
+                <p class="headerInte">Travel</p>
+            </div>
+
+            <div class="iconInteLeft">
+                <object type="image/svg+xml" id="baking" data="images/baking.svg"></object>
+                <p class="headerInte">Baking</p>
+            </div>
+
+            <div class="iconInteLeft">
+                <object type="image/svg+xml" id="eating" data="images/eating.svg"></object>
+                <p class="headerInte">Eating</p>
+            </div>
+
+            <div class="iconInteRight">
+                    <object type="image/svg+xml" id="design" data="images/design.svg"></object>
+                    <p class="headerInte">Design</p>
+            </div>
+            
+            <div id="contact">
+            <div id="contactHeader">
+                    <object type="image/svg+xml" id="contactText" data="images/contact.svg"></object>
+            </div><!--end of Contact Header-->
+            <div id="contactText">
+                <p>Email: hanly4196@gmail.com
+                <br>Phone Number: 226 504 8689
+                <br>Website: www.han-portfolio.com</p>
+            </div>
+            </div>
+       
         </div>
-    </div>
 
-	
+        
+        </section><!--end of part_03-->
+          
+
+    </div><!--end of mainContainer-->
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
